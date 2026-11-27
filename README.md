@@ -1,15 +1,15 @@
 
-# 🍅 Tomato Leaf Disease Classification Using CNN
+#  Tomato Leaf Disease Classification Using CNN
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on developing a Convolutional Neural Network (CNN) model to classify tomato leaf images into six different categories, including healthy leaves and diseased leaves.
 
 The model is developed using **PyTorch** and trained on a tomato leaf image dataset. The main objective is to identify tomato leaf diseases automatically using deep learning and image classification techniques.
 
-**Project Status:** 🚧 Work in Progress
+**Project Status:**  Work in Progress
 
-## 🎯 Objectives
+##  Objectives
 
 - Develop a CNN-based tomato leaf disease classification model.
 - Classify tomato leaves into six different categories.
@@ -18,7 +18,7 @@ The model is developed using **PyTorch** and trained on a tomato leaf image data
 - Evaluate model performance using accuracy, loss, and confusion matrix.
 - Explore further improvements and optimization techniques.
 
-## 📂 Dataset Information
+##  Dataset Information
 
 The dataset contains three separate subsets:
 
@@ -40,7 +40,7 @@ The model identifies the following six classes:
 5. Tomato Septoria Leaf Spot
 6. Tomato Healthy
 
-## 🛠️ Technologies & Libraries
+##  Technologies & Libraries
 
 - Python
 - PyTorch
@@ -50,7 +50,7 @@ The model identifies the following six classes:
 - Scikit-learn
 - Google Colab
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 A custom CNN architecture is implemented with three convolutional blocks and fully connected layers.
 
@@ -69,7 +69,7 @@ A custom CNN architecture is implemented with three convolutional blocks and ful
 
 **Total Trainable Parameters:** 6,517,574
 
-## ⚙️ Data Preprocessing & Augmentation
+##  Data Preprocessing & Augmentation
 
 The following preprocessing techniques are applied:
 
@@ -83,7 +83,7 @@ Data augmentation is applied to the training dataset to increase image diversity
 
 Validation and test images use resizing, tensor conversion, and normalization without random augmentation.
 
-## ⚡ Training Configuration
+##  Training Configuration
 
 | Parameter | Value |
 |---|---|
@@ -96,7 +96,7 @@ Validation and test images use resizing, tensor conversion, and normalization wi
 | Image Size | 128 × 128 |
 | Hardware | Google Colab GPU (CUDA) |
 
-## 📊 Preliminary Results
+##  Preliminary Results
 
 The following results were obtained during the current training experiment.
 
@@ -109,7 +109,7 @@ The following results were obtained during the current training experiment.
 
 *Note: These are preliminary experimental results and may change as the project is further improved.*
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 The model is evaluated using:
 
@@ -119,13 +119,13 @@ The model is evaluated using:
 - Confusion matrix.
 - Individual image prediction.
 
-## 💾 Model Saving
+##  Model Saving
 
 The trained model weights are saved in PyTorch format:
 
 `tomato_leaf_cnn.pth`
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open the project notebook in Google Colab.
 2. Upload the tomato leaf dataset ZIP file.
@@ -135,7 +135,7 @@ The trained model weights are saved in PyTorch format:
 6. Evaluate the model using validation and test datasets.
 7. Generate performance visualizations and save the trained model.
 
-## 🔄 Future Improvements
+##  Future Improvements
 
 This project is still under development. Planned improvements include:
 
@@ -147,9 +147,9 @@ This project is still under development. Planned improvements include:
 - Exploring explainable AI (XAI) techniques.
 - Comparing performance with other deep learning architectures.
 
-## 📌 Current Project Status
+##  Current Project Status
 
-**Work in Progress 🚧**
+**Work in Progress **
 
 The initial CNN model has been implemented and evaluated. Further experiments and improvements are ongoing.
 
